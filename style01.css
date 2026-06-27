@@ -129,3 +129,46 @@ footer {
     padding: 15px;
     margin-top: 30px;
 }
+#projets{
+    padding: 60px 40px;
+}
+
+.section-titre{
+    text-align: center;
+    color: #0d47a1;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.projets-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.projet-carte{
+    background: white;
+    width: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.badge{
+    display: inline-block;
+    background: #1976d2;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 0 0 10px 0;
+}
+
+.btn-projet{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background: #0d47a1;
+    color: white;
+    text-decoration: none;
+}
