@@ -1,0 +1,80 @@
+#competences {
+  padding: 60px 40px;
+  background-color: #f9f9f9;
+}
+
+#competences h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.competences-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.categorie {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.categorie h3 {
+  font-size: 1.2rem;
+  color: #2980b9;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 8px;
+}
+
+/* Ligne d'une compétence */
+.competence {
+  margin-bottom: 18px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 6px;
+}
+
+/* Barre de fond */
+.barre {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  height: 22px;
+  overflow: hidden;
+}
+
+/* Barre de progression */
+.progression {
+  height: 100%;
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  border-radius: 20px;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8px;
+  transition: width 1s ease-in-out;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .categorie {
+    width: 100%;
+  }
+
+  #competences {
+    padding: 40px 20px;
+  }
+}
